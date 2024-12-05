@@ -1,0 +1,179 @@
+/* criando variáveis das cores */
+:root{
+    --color-primary:#5274d9ec;
+
+}
+
+/* css para tudo */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
+}
+
+/* todos os textos h3 irão ficar na cor branca */
+h3{ 
+    color: white
+}
+
+/* cor ou img do fundo */
+body{
+    background-image: url("../assets/bannerSteven8.png");
+    background-size: cover;
+    align-items: center;
+
+}
+
+/* parte de cima do site */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: var(--color-primary);
+}
+
+/* Para chamar id, usar # */
+#logo{
+    width: 200px;
+}
+
+/* menu: personagens     trilhas    regras */
+nav ul{
+    display: flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    flex-direction: row;
+}
+
+nav ul li{
+    
+    margin-right: 15px;
+    font-size: 1em;
+    font-weight: 200;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* quando o mouse ficar parado em cima do nome, ele vai mudar de cor*/
+nav ul li:hover{
+    color:rgb(218, 178, 255);
+}
+
+#banner{
+    margin-top: -50px;
+    width: 100%;
+}
+
+#icon_titulo{
+    margin-right: 15px;
+}
+
+/* titulo PERSONAGENS */
+#titulo{
+    text-align: center;
+    margin: 40px 0;
+    color: white;
+    text-shadow: rgba(255, 255, 255, 0.4) -5px 5px, rgba(255, 255, 255, 0.3) -10px 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#cards_personagens{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+}
+ 
+#cards_personagens .options{
+    padding: 0 20px;
+}
+
+/* botões de esoclha de poder, etc */
+#cards_personagens .options .option{
+    padding: 0.8em;
+    letter-spacing: 0.02rem;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    border: none;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    background-color: rgb(255, 150, 246);
+}
+
+/* Para chamar class, usar . */
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+#cards_personagens div{
+    width: 250px;
+    border-radius: 10%;
+    transition: transform 0.3s ease;
+}
+
+#cards_personagens div:hover{
+    transform: scale(1.2);
+    color: white;
+}
+
+#cards_personagens div img{
+    width: 100%;
+    border-radius: 10%;
+    transition: transform 0.3s ease;
+}
+
+#cards_personagens .cards div h2{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+}
+
+#cards_personagens .cards div h2:hover{
+    color: white
+}
+
+main img{
+    width: 40%;
+}
+
+/* parte de baixo do site */
+footer{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#direitos_reservados{
+    color: rgba(255, 255, 255, 0.521);
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 0.6em;
+}
+
+#menu_sup{
+    margin-top: -50px;
+}
+
+#biscoito_gatinho{
+    margin-right: 10px;
+    width: flex;
+    margin: auto;
+    /* min-width: 200px;
+    max-width: 400px; */
+}

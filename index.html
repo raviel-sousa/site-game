@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="O Game mais divertido já criado para fãs de Steven Universo." content="">
+    <title>Game - Steven Universo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- aqui é o caminho para vincular ao aquivo onde está as cores e comandos pra oganizar os espaços do site-->
+
+    <!-- importar fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+
+        <!-- Nav é uma tag para descrever conteudos de navegação-->
+        <nav id="menu_sup">
+            <img id="logo" src="assets/logoSteven.png" alt="Logo do Jogo com cores laranja e rosa">
+
+            <!-- ul cria uma lista sem ordem -->
+            <ul>
+                <!--Para cada conteudo um li-->
+            
+                <a href="#titulo">
+                    <li>Personagens</li>
+                                </a>
+                <a href="./html/trilhas.html">
+                    <li>Trilhas</li>
+                </a>
+                <a href="./html/enredo.html">
+                    <li>Enredo</li>
+                </a>
+                
+            </ul>
+
+        </nav>
+
+        <img id="banner" src="assets/bannerSteven5.png" width="" alt="Banner do jogo.">
+
+    </header>
+
+    <h1 id="titulo">
+        <label for="">
+            <img id="icon-titulo" src="../assets/icon_titulo.png" alt="">
+        </label>
+        Personagens
+    </h1>
+
+    <main>
+        <section id="cards_personagens">
+            <section class="cards options">
+                <select name="universos" class="option" id="universos">
+                    <option value="escolha"> Escolha um Universo </option>
+                    <option value="Pizza"> Pizza</option>
+                    <option value="Biscoito"> Biscoito</option>
+                    <option value="Pudim"> Pudim</option>
+                </select>
+
+                <select name="poderes" id="poderes" class="option">
+                    <option value="escolha um poder"> Escolha um poder</option>
+                    <option value="agua">Água</option>
+                    <option value="fogo">Fogo</option>
+                    <option value="ar">Ar</option>
+                    <option value="terra">Terra</option>
+                </select>
+
+                <select name="mapas" id="mapas" class="option">
+                    <option value="escolha um mapa">Escolha um mapa</option>
+                    <option value="Terra">Terra</option>
+                    <option value="Universo">Universo</option>
+                    <option value="Quartel das Jeams">Quartel da Gems</option>
+                </select>
+            </section>
+            <section class="cards">
+                <a href="html/steven.html" rel="noopener noreferrer">
+                    <div id="P1steven"> 
+                        <img id="steven_img" src="assets/P1steven.png" alt="Foto do Personagem 1 - Steven">
+                        <h3>Steven</h3>
+                    </div>
+                </a>
+                <a href="html/perola.html" rel="noopener noreferrer">
+                    <div>
+                        <img id="perola_img" src="assets/P2perola.png" alt="Foto do Personagem 2 - Pérola">
+                        <h3>Pérola</h3>
+                    </div>
+                </a>
+                <a href="html/garnet.html" rel="noopener noreferrer">
+                    <div>
+                        <img id="garnit_img" src="assets/P3garnet.png" alt="Foto do Personagem 3 - Garnet">
+                        <h3>Garnet</h3>
+                    </div>
+                </a>
+            </section>
+            <section class="cards">
+                <a href="html/leao.html" rel="noopener noreferrer">
+                    <div>
+                        <img id="leao-_img" src="assets/P4leao.png" alt="Foto do Personagem 4 - Leão">
+                        <h3>Leão</h3>
+                    </div>
+                </a>
+                <a href="html/connie.html" rel="noopener noreferrer">
+                    <div>
+                        <img id="connie_img" src="assets/P5connie.png" alt="Foto do Personagem 5 - Connie">
+                        <h3>Connie</h3>
+                    </div>
+                </a>
+                <a href="html/greg.html" rel="noopener noreferrer">
+                    <div>
+                        <img id="greg_img" src="assets/P6Greg.png" alt="Foto do Personagem 6 - Greg">
+                        <h3>Greg</h3>
+                    </div>
+                </a>
+            </section>
+        </section>
+
+        <img id="biscoito_gatinho" src="assets/biscoito_gatinho.png" alt="Biscoito Gatinho">
+    </main>
+    
+    <footer id="direitos_reservados">
+        <p>Todos os direitos reservados desde 2024 - <label>by<strong> Raviel Sousa</strong></label></p>
+    </footer>
+</body>
+</html>
